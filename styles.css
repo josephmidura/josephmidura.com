@@ -8,42 +8,47 @@ body {
 
 @media (prefers-color-scheme: light) {
   body {
-    background: #FFFFFF;
+    background: #ffffff;
     color: #161616;
   }
 
   a {
-    color: #1B2ABF;
+    color: #1b2abf;
   }
 
   a:hover {
-    color: #1B5BBF;
+    color: #1b5bbf;
   }
 }
 
 @media (prefers-color-scheme: dark) {
   body {
     background: #161616;
-    color: #EEEEEE;
+    color: #eeeeee;
   }
 
   a {
-    color: #0C98F5;
+    color: #0c98f5;
   }
 
   a:hover {
-    color: #88C9F3;
+    color: #88c9f3;
   }
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-size: 16px;
   line-height: 22px;
   margin: 0;
 }
 
 @media screen and (max-width: 600px) {
-  body, h1, h2, h3 {
+  body,
+  h1,
+  h2,
+  h3 {
     font-size: 20px;
     line-height: 1.2;
   }
@@ -77,4 +82,3 @@ hr {
   border: 1px solid;
   margin: 32px 0;
 }
-
